@@ -16,7 +16,7 @@ from barcode.writer import ImageWriter
 from pptx.enum.text import MSO_ANCHOR, MSO_AUTO_SIZE
 
 
-data = pd.read_excel (r'F:\שילוטים\שילוטים חנות גדול\פה מכניסים הצעת מחיר.xlsx') #place "r" before the path string to address special character, such as '\'. Don't forget to put the file name at the end of the path + '.xlsx'
+data = pd.read_excel (r'path\path...') #place "r" before the path string to address special character, such as '\'. Don't forget to put the file name at the end of the path + '.xlsx'
 
 code_list = data["קוד פריט"].tolist()
 name_of_product_list = data["תיאור פריט"].tolist()
